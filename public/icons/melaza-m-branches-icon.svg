@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Melaza M branches icon</title>
+  <desc id="desc">M-shaped branch icon from the Melaza tree trunk.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="72%">
+      <stop offset="0" stop-color="#fff0a8"/>
+      <stop offset=".62" stop-color="#d79a2b"/>
+      <stop offset="1" stop-color="#a96818"/>
+    </radialGradient>
+    <linearGradient id="purple" x1="46" x2="210" y1="36" y2="222" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#351554"/>
+      <stop offset=".55" stop-color="#1d0733"/>
+      <stop offset="1" stop-color="#080212"/>
+    </linearGradient>
+    <linearGradient id="cream" x1="56" x2="200" y1="58" y2="212" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff9d6"/>
+      <stop offset=".6" stop-color="#f0d58a"/>
+      <stop offset="1" stop-color="#b67825"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="46" fill="url(#bg)"/>
+  <path fill="none" stroke="#12051d" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" d="M48 205c19-55 43-105 68-132 8-9 16-9 24 0 25 27 49 77 68 132"/>
+  <path fill="none" stroke="#12051d" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" d="M48 205c31-10 52-34 68-68l12-27 12 27c16 34 37 58 68 68"/>
+  <path fill="none" stroke="#12051d" stroke-width="30" stroke-linecap="round" d="M128 222V74"/>
+  <path fill="none" stroke="url(#purple)" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" d="M48 205c19-55 43-105 68-132 8-9 16-9 24 0 25 27 49 77 68 132"/>
+  <path fill="none" stroke="url(#purple)" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" d="M48 205c31-10 52-34 68-68l12-27 12 27c16 34 37 58 68 68"/>
+  <path fill="none" stroke="url(#purple)" stroke-width="20" stroke-linecap="round" d="M128 222V74"/>
+  <path fill="none" stroke="url(#cream)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" d="M80 175c21-16 34-36 44-61M176 175c-21-16-34-36-44-61M128 211V91"/>
+  <path fill="none" stroke="url(#cream)" stroke-width="8" stroke-linecap="round" d="M72 124c-16-3-24 13-14 22 9 8 22-1 17-13M184 124c16-3 24 13 14 22-9 8-22-1-17-13"/>
+</svg>

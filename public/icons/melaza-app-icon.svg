@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Melaza app icon</title>
+  <desc id="desc">Melaza tree icon with an afro-shaped purple canopy, gold leaves, cream curls, and M-shaped branches.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="72%">
+      <stop offset="0" stop-color="#fff0a8"/>
+      <stop offset=".62" stop-color="#d79a2b"/>
+      <stop offset="1" stop-color="#a96818"/>
+    </radialGradient>
+    <linearGradient id="purple" x1="48" x2="208" y1="30" y2="210" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#351554"/>
+      <stop offset=".52" stop-color="#1d0733"/>
+      <stop offset="1" stop-color="#080212"/>
+    </linearGradient>
+    <linearGradient id="cream" x1="52" x2="206" y1="44" y2="178" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff9d6"/>
+      <stop offset=".58" stop-color="#f0d58a"/>
+      <stop offset="1" stop-color="#b67825"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="80" x2="178" y1="36" y2="138" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f9dfa0"/>
+      <stop offset=".55" stop-color="#c78b34"/>
+      <stop offset="1" stop-color="#70420f"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="46" fill="url(#bg)"/>
+  <path fill="url(#purple)" stroke="#14051f" stroke-width="2.8" d="M128 22c8 6 12 10 17 19 10-5 22-4 31 3 2 10 2 15-1 23 12-2 23 3 29 13 0 10-3 16-8 22 12 3 20 12 21 24-6 8-11 12-20 15 8 8 11 21 7 32-9 5-17 5-25 2 2 12-5 24-16 30-10-1-16-5-21-13-6 10-18 16-30 14-7-8-9-15-8-24-10 6-24 6-34-1-3-10-1-18 4-26-12-1-23-9-27-20 4-10 10-15 19-19-10-6-16-18-14-30 8-7 15-9 25-8-4-10-2-23 6-31 10-1 18 2 25 8 3-12 11-22 24-29Z"/>
+  <path fill="none" stroke="#15051f" stroke-width="17" stroke-linecap="round" stroke-linejoin="round" d="M59 199c17-42 30-74 57-101 8-8 16-8 24 0 27 27 40 59 57 101"/>
+  <path fill="none" stroke="#15051f" stroke-width="17" stroke-linecap="round" stroke-linejoin="round" d="M59 199c25-8 43-26 57-53l12-22 12 22c14 27 32 45 57 53"/>
+  <path fill="none" stroke="#15051f" stroke-width="17" stroke-linecap="round" d="M128 215V98"/>
+  <path fill="none" stroke="url(#purple)" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" d="M59 199c17-42 30-74 57-101 8-8 16-8 24 0 27 27 40 59 57 101"/>
+  <path fill="none" stroke="url(#purple)" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" d="M59 199c25-8 43-26 57-53l12-22 12 22c14 27 32 45 57 53"/>
+  <path fill="none" stroke="url(#purple)" stroke-width="11" stroke-linecap="round" d="M128 215V98"/>
+  <path fill="none" stroke="url(#cream)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" d="M57 132c18-25 39-34 64-31M199 132c-18-25-39-34-64-31M84 87c16-20 32-23 48-8M172 87c-16-20-32-23-48-8"/>
+  <path fill="none" stroke="url(#cream)" stroke-width="7" stroke-linecap="round" d="M121 101c-3 31-1 72 7 106M135 101c3 31 1 72-7 106"/>
+  <path fill="none" stroke="url(#cream)" stroke-width="7" stroke-linecap="round" d="M67 133c-15-2-22 15-11 23 9 6 20-3 15-13M189 133c15-2 22 15 11 23-9 6-20-3-15-13M91 85c-9-10-23-2-20 10 3 10 16 9 15 0M165 85c9-10 23-2 20 10-3 10-16 9-15 0"/>
+  <g fill="url(#gold)" stroke="#3a174c" stroke-width="1.6">
+    <path d="M118 48c-10 6-13 16-8 29 12-5 17-14 16-29Z"/>
+    <path d="M145 49c-11 5-15 14-12 28 13-4 19-13 18-27Z"/>
+    <path d="M91 61c-10 5-14 14-11 26 12-3 18-11 18-25Z"/>
+    <path d="M169 63c-11 5-15 14-12 26 13-3 19-11 19-25Z"/>
+    <path d="M74 109c-13 1-22 8-26 20 13 3 24-2 31-16Z"/>
+    <path d="M182 113c7 14 18 19 31 16-4-12-13-19-26-20Z"/>
+    <path d="M91 151c-13 2-21 9-24 21 13 2 23-3 30-17Z"/>
+    <path d="M165 155c7 14 17 19 30 17-3-12-11-19-24-21Z"/>
+    <path d="M122 132c-9 6-11 15-7 26 10-5 14-13 13-25Z"/>
+    <path d="M142 132c-10 5-14 13-12 25 11-4 16-12 17-24Z"/>
+  </g>
+</svg>

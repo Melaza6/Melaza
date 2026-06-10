@@ -1,0 +1,20 @@
+:root {
+  --melaza-indigo: #370066;
+  --melaza-poppy: #e8aa13;
+  --melaza-orange: #ef5d1e;
+  --melaza-rose: #db6773;
+  --melaza-twilight: #a287a0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #ffffff;
+}
+
+::selection {
+  background: rgba(232, 170, 19, 0.35);
+  color: var(--melaza-indigo);
+}
