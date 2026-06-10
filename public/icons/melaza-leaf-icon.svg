@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Melaza leaf icon</title>
+  <desc id="desc">A gold Melaza leaf with purple outline, based on the leaves in the logo canopy.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="72%">
+      <stop offset="0" stop-color="#fff0a8"/>
+      <stop offset=".62" stop-color="#d79a2b"/>
+      <stop offset="1" stop-color="#a96818"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="74" x2="184" y1="28" y2="224" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f9dfa0"/>
+      <stop offset=".55" stop-color="#c78b34"/>
+      <stop offset="1" stop-color="#70420f"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="46" fill="url(#bg)"/>
+  <path fill="#1d0733" d="M128 230c-47-48-65-104-50-150 14-43 51-60 91-54 20 51 11 103-26 151-9 12-15 27-15 53Z"/>
+  <path fill="url(#gold)" stroke="#2b0f43" stroke-width="8" stroke-linejoin="round" d="M128 214c-39-42-54-90-42-130 11-35 40-49 74-45 16 44 8 88-24 130-7 10-10 24-8 45Z"/>
+  <path fill="none" stroke="#fff8d6" stroke-width="10" stroke-linecap="round" d="M128 204c5-65 15-111 33-155"/>
+  <path fill="none" stroke="#351554" stroke-width="7" stroke-linecap="round" d="M132 155c-18-3-35-12-51-29M143 123c-16-3-30-11-43-24M153 90c-12-2-23-8-32-18"/>
+</svg>

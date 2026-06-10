@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Melaza swirl icon</title>
+  <desc id="desc">An ornamental cream branch swirl from the Melaza tree canopy.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="72%">
+      <stop offset="0" stop-color="#fff0a8"/>
+      <stop offset=".62" stop-color="#d79a2b"/>
+      <stop offset="1" stop-color="#a96818"/>
+    </radialGradient>
+    <linearGradient id="cream" x1="45" x2="214" y1="48" y2="198" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff9d6"/>
+      <stop offset=".58" stop-color="#f0d58a"/>
+      <stop offset="1" stop-color="#b67825"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="46" fill="url(#bg)"/>
+  <circle cx="128" cy="128" r="90" fill="#1d0733"/>
+  <path fill="none" stroke="url(#cream)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" d="M47 143c36-46 75-55 117-31 19 11 30 30 23 48-8 22-41 25-52 6-12-20 10-38 26-25"/>
+  <path fill="none" stroke="url(#cream)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" d="M122 116c-9-40 9-69 41-72 27-3 45 25 28 46-14 17-40 7-36-14"/>
+  <path fill="none" stroke="url(#cream)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" d="M94 140c-21 12-34 30-40 55M153 113c26-15 48-20 66-15"/>
+  <path fill="#c78b34" stroke="#3a174c" stroke-width="2" d="M74 106c-19 2-31 12-36 30 19 2 33-6 42-25ZM195 113c18 1 31 10 37 27-18 3-33-4-42-21Z"/>
+</svg>

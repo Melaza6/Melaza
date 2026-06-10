@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --melaza-indigo: #370066;
+  --melaza-poppy: #e8aa13;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #ffffff;
+  color: #0f172a;
+}
+
+::selection {
+  background: rgba(232, 170, 19, 0.35);
+}
