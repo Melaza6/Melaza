@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Melaza Network icon</title>
+  <desc id="desc">Melaza Network icon with leaf nodes connected by ornamental cream branches.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="43%" r="72%">
+      <stop offset="0" stop-color="#fff0a8"/>
+      <stop offset=".62" stop-color="#d79a2b"/>
+      <stop offset="1" stop-color="#a96818"/>
+    </radialGradient>
+    <linearGradient id="purple" x1="48" x2="208" y1="42" y2="216" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#351554"/>
+      <stop offset=".55" stop-color="#1d0733"/>
+      <stop offset="1" stop-color="#080212"/>
+    </linearGradient>
+    <linearGradient id="cream" x1="56" x2="204" y1="44" y2="210" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff9d6"/>
+      <stop offset=".56" stop-color="#f0d58a"/>
+      <stop offset="1" stop-color="#b67825"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="46" fill="url(#bg)"/>
+  <path fill="none" stroke="#12051d" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" d="M128 128c-30-26-54-42-83-54M128 128c31-25 57-42 86-54M128 128c-32 24-55 42-78 70M128 128c34 23 58 42 78 70M128 128c0-32 0-57 0-88"/>
+  <path fill="none" stroke="url(#cream)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" d="M128 128c-30-26-54-42-83-54M128 128c31-25 57-42 86-54M128 128c-32 24-55 42-78 70M128 128c34 23 58 42 78 70M128 128c0-32 0-57 0-88"/>
+  <circle cx="128" cy="128" r="31" fill="url(#purple)" stroke="#fff5c6" stroke-width="6"/>
+  <circle cx="45" cy="74" r="24" fill="url(#purple)" stroke="#fff5c6" stroke-width="5"/>
+  <circle cx="214" cy="74" r="24" fill="url(#purple)" stroke="#fff5c6" stroke-width="5"/>
+  <circle cx="50" cy="198" r="24" fill="url(#purple)" stroke="#fff5c6" stroke-width="5"/>
+  <circle cx="206" cy="198" r="24" fill="url(#purple)" stroke="#fff5c6" stroke-width="5"/>
+  <circle cx="128" cy="40" r="22" fill="url(#purple)" stroke="#fff5c6" stroke-width="5"/>
+  <path fill="#c78b34" stroke="#3a174c" stroke-width="1.5" d="M119 143c12-30 24-42 41-48-2 31-13 47-41 48ZM40 82c8-21 17-30 30-34-2 21-10 31-30 34ZM208 82c-20-3-28-13-30-34 13 4 22 13 30 34ZM43 207c10-20 20-28 34-31-4 22-14 31-34 31ZM211 207c-20 0-30-9-34-31 14 3 24 11 34 31ZM119 46c7-18 16-26 28-29-1 19-9 29-28 29Z"/>
+</svg>

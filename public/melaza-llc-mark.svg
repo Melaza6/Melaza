@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Melaza LLC tree mark</title>
+  <desc id="desc">A tree icon with an afro-like leaf crown and branches forming an M.</desc>
+  <defs>
+    <linearGradient id="leaf" x1="200" x2="800" y1="120" y2="720" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#351657"/>
+      <stop offset="55%" stop-color="#19072f"/>
+      <stop offset="100%" stop-color="#070212"/>
+    </linearGradient>
+    <linearGradient id="branch" x1="280" x2="720" y1="375" y2="820" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fff9df"/>
+      <stop offset="44%" stop-color="#bd8d3a"/>
+      <stop offset="100%" stop-color="#3f1b5b"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#12051f" flood-opacity=".34"/>
+    </filter>
+    <style>
+      .leaf { fill: url(#leaf); stroke: #0b0614; stroke-width: 5; }
+      .branch-dark { fill: none; stroke: #19072f; stroke-width: 48; stroke-linecap: round; stroke-linejoin: round; }
+      .branch { fill: none; stroke: url(#branch); stroke-width: 27; stroke-linecap: round; stroke-linejoin: round; }
+      .line { fill: none; stroke: #fff9df; stroke-width: 11; stroke-linecap: round; stroke-linejoin: round; opacity: .92; }
+    </style>
+  </defs>
+  <rect width="1000" height="1000" rx="112" fill="#f8f0d5"/>
+  <circle cx="500" cy="413" r="360" fill="#c99b37" opacity=".18"/>
+
+  <g filter="url(#shadow)">
+    <circle class="leaf" cx="500" cy="245" r="110"/>
+    <circle class="leaf" cx="398" cy="275" r="102"/>
+    <circle class="leaf" cx="602" cy="275" r="102"/>
+    <circle class="leaf" cx="315" cy="340" r="96"/>
+    <circle class="leaf" cx="685" cy="340" r="96"/>
+    <circle class="leaf" cx="270" cy="448" r="90"/>
+    <circle class="leaf" cx="730" cy="448" r="90"/>
+    <circle class="leaf" cx="355" cy="510" r="98"/>
+    <circle class="leaf" cx="500" cy="534" r="110"/>
+    <circle class="leaf" cx="645" cy="510" r="98"/>
+    <circle class="leaf" cx="418" cy="170" r="72"/>
+    <circle class="leaf" cx="582" cy="170" r="72"/>
+    <circle class="leaf" cx="300" cy="242" r="70"/>
+    <circle class="leaf" cx="700" cy="242" r="70"/>
+    <circle class="leaf" cx="218" cy="360" r="62"/>
+    <circle class="leaf" cx="782" cy="360" r="62"/>
+    <circle class="leaf" cx="240" cy="545" r="56"/>
+    <circle class="leaf" cx="760" cy="545" r="56"/>
+
+    <path class="branch-dark" d="M294 692C346 580 387 498 454 430C486 397 514 397 546 430C613 498 654 580 706 692"/>
+    <path class="branch-dark" d="M500 792C498 694 499 579 500 426"/>
+    <path class="branch-dark" d="M294 692C354 674 408 630 452 556L500 474L548 556C592 630 646 674 706 692"/>
+
+    <path class="branch" d="M294 692C346 580 387 498 454 430C486 397 514 397 546 430C613 498 654 580 706 692"/>
+    <path class="branch" d="M500 792C498 694 499 579 500 426"/>
+    <path class="branch" d="M294 692C354 674 408 630 452 556L500 474L548 556C592 630 646 674 706 692"/>
+
+    <path class="line" d="M352 650C397 608 428 556 458 500"/>
+    <path class="line" d="M648 650C603 608 572 556 542 500"/>
+    <path class="line" d="M500 760C497 670 499 570 500 482"/>
+    <path class="line" d="M418 456C379 417 340 384 292 360"/>
+    <path class="line" d="M582 456C621 417 660 384 708 360"/>
+
+    <ellipse cx="404" cy="280" rx="15" ry="31" fill="#fff8df" opacity=".9" transform="rotate(42 404 280)"/>
+    <ellipse cx="512" cy="246" rx="14" ry="30" fill="#fff8df" opacity=".9" transform="rotate(30 512 246)"/>
+    <ellipse cx="610" cy="314" rx="15" ry="31" fill="#fff8df" opacity=".86" transform="rotate(-35 610 314)"/>
+    <ellipse cx="322" cy="426" rx="14" ry="30" fill="#fff8df" opacity=".82" transform="rotate(-42 322 426)"/>
+    <ellipse cx="678" cy="426" rx="14" ry="30" fill="#fff8df" opacity=".82" transform="rotate(42 678 426)"/>
+    <ellipse cx="490" cy="535" rx="16" ry="33" fill="#fff8df" opacity=".88" transform="rotate(-8 490 535)"/>
+  </g>
+</svg>

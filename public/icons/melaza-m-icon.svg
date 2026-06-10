@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Melaza swirly M icon</title>
+  <desc id="desc">A Melaza M built from ornamental cream swirls in the style of the Melaza swirl icon.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="72%">
+      <stop offset="0" stop-color="#fff0a8"/>
+      <stop offset=".62" stop-color="#d79a2b"/>
+      <stop offset="1" stop-color="#a96818"/>
+    </radialGradient>
+    <linearGradient id="cream" x1="42" x2="214" y1="48" y2="210" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff9d6"/>
+      <stop offset=".58" stop-color="#f0d58a"/>
+      <stop offset="1" stop-color="#b67825"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="70" x2="190" y1="50" y2="198" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f9dfa0"/>
+      <stop offset=".55" stop-color="#c78b34"/>
+      <stop offset="1" stop-color="#70420f"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="46" fill="url(#bg)"/>
+  <circle cx="128" cy="128" r="90" fill="#1d0733"/>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="#080212" stroke-width="26" d="M45 193c15-70 37-118 70-144 11 30 25 61 42 94 19-38 34-70 54-94 5 55 6 101 0 144"/>
+    <path stroke="#080212" stroke-width="22" d="M45 193c27-1 43-17 43-40 0-17-14-28-28-22-14 6-15 25-1 30M211 193c-27-1-43-17-43-40 0-17 14-28 28-22 14 6 15 25 1 30"/>
+    <path stroke="#080212" stroke-width="18" d="M115 49c-30-10-52 8-48 34 4 25 39 24 38 1M211 49c-32-9-53 10-48 36 4 23 36 21 35-1"/>
+  </g>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="url(#cream)" stroke-width="15" d="M45 193c15-70 37-118 70-144 11 30 25 61 42 94 19-38 34-70 54-94 5 55 6 101 0 144"/>
+    <path stroke="url(#cream)" stroke-width="13" d="M45 193c27-1 43-17 43-40 0-17-14-28-28-22-14 6-15 25-1 30M211 193c-27-1-43-17-43-40 0-17 14-28 28-22 14 6 15 25 1 30"/>
+    <path stroke="url(#cream)" stroke-width="11" d="M115 49c-30-10-52 8-48 34 4 25 39 24 38 1M211 49c-32-9-53 10-48 36 4 23 36 21 35-1"/>
+  </g>
+
+  <path fill="url(#gold)" stroke="#3a174c" stroke-width="2" d="M123 103c-17 3-29 13-34 29 18 2 31-6 39-23ZM132 104c16 3 28 12 34 28-17 3-31-5-39-22Z"/>
+  <path fill="url(#gold)" stroke="#3a174c" stroke-width="2" d="M78 93c-17 1-29 10-35 26 17 4 31-3 40-18ZM178 93c17 1 29 10 35 26-17 4-31-3-40-18Z"/>
+
+  <g fill="none" stroke="#fff9d6" stroke-linecap="round" opacity=".95">
+    <path stroke-width="5" d="M68 186c19-17 29-38 33-67"/>
+    <path stroke-width="5" d="M188 186c-19-17-29-38-33-67"/>
+    <path stroke-width="4" d="M123 67c7 26 17 51 30 76"/>
+    <path stroke-width="4" d="M151 135c12-29 25-54 41-75"/>
+  </g>
+</svg>
