@@ -62,6 +62,9 @@ src/
     globals.css
 ```
 
+Legacy Create React App files have been removed; the public site is served from
+the Next.js App Router under `src/app`.
+
 ## Environment Variables
 
 Optional future integration variables:
