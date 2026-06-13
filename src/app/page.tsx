@@ -14,6 +14,9 @@ export default function HomePage() {
           <p className="max-w-4xl text-2xl font-black leading-tight text-melaza-indigo">
             MelazaUSA LLC is publicly branded as Melaza: a growing consulting and digital solutions company built to help small businesses move from informal operations to organized, scalable systems.
           </p>
+          <p className="mt-5 max-w-3xl text-lg font-semibold leading-8 text-slate-600">
+            From planning to launch, Melaza helps businesses create digital tools, organize workflows, and publish professional online systems.
+          </p>
         </div>
       </section>
       <ServicesPreview />

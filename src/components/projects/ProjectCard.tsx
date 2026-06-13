@@ -15,6 +15,10 @@ export function ProjectCard({ project }: { project: Project }) {
         </span>
       </div>
       <p className="mt-4 text-sm font-semibold text-slate-500">{project.location}</p>
+      <p className="mt-3 rounded-2xl bg-melaza-poppy/10 px-4 py-3 text-sm font-bold text-melaza-indigo">
+        {project.serviceType}
+      </p>
+      <p className="mt-4 text-sm leading-7 text-slate-600">{project.description}</p>
       <ul className="mt-5 grid gap-2 text-sm text-slate-600">
         {project.servicesProvided.map((service) => (
           <li key={service} className="rounded-2xl bg-slate-50 px-4 py-3">

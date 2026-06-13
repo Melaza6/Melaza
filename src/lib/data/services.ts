@@ -1,44 +1,116 @@
 export type Service = {
   title: string;
   description: string;
-  detail: string;
+  items: string[];
 };
 
 export const services: Service[] = [
   {
-    title: "Business Process Consulting",
-    description: "Helping businesses document, organize, and improve daily operations.",
-    detail:
-      "We map workflows, clarify responsibilities, document routines, and turn informal operations into repeatable systems.",
+    title: "Digital Business Tools",
+    description: "Practical websites, portals, dashboards, forms, and app-style systems for daily business use.",
+    items: [
+      "Business websites",
+      "Landing pages",
+      "Internal dashboards",
+      "Client portals",
+      "Admin panels",
+      "Mobile-ready business apps",
+      "Lead tracking systems",
+      "Service request forms",
+      "Appointment request forms",
+      "Customer intake forms",
+      "Inventory-style trackers",
+      "Project status pages",
+    ],
   },
   {
-    title: "Web Development & Digital Solutions",
-    description: "Modern websites, dashboards, client portals, internal tools, and business apps.",
-    detail:
-      "Melaza builds digital experiences that match how the business works, from public websites to practical internal tools.",
+    title: "App Planning & Prototyping",
+    description: "Early planning support that turns an app idea into a clear, buildable direction.",
+    items: [
+      "App idea planning",
+      "MVP definition",
+      "Feature lists",
+      "User flow planning",
+      "Wireframe planning",
+      "Database structure planning",
+      "Page and screen planning",
+      "Build roadmap",
+      "Launch checklist",
+    ],
   },
   {
-    title: "IT Systems Consulting",
-    description: "Support with business technology, software workflows, cloud tools, user access, and system organization.",
-    detail:
-      "We help owners choose, organize, and improve the tools that support daily work, communication, and access control.",
+    title: "Project Management Support",
+    description: "Structure for projects that need clear scope, tasks, timelines, and launch coordination.",
+    items: [
+      "Project scope creation",
+      "Timeline planning",
+      "Task breakdowns",
+      "Milestone tracking",
+      "Requirements documentation",
+      "Progress check-ins",
+      "Testing checklists",
+      "Launch coordination",
+      "Team responsibility charts",
+    ],
   },
   {
-    title: "SecureStart",
-    description: "Starter security and compliance package for small businesses that need basic digital protection.",
-    detail:
-      "A foundational package for account organization, safer operations, documentation, and basic digital readiness.",
+    title: "Business Workflow Organization",
+    description: "Help organizing the way clients, tasks, documents, and service work move through the business.",
+    items: [
+      "Process mapping",
+      "Client intake workflows",
+      "Service delivery workflows",
+      "Follow-up systems",
+      "Document organization",
+      "Admin procedures",
+      "SOP-style checklists",
+      "Business task boards",
+      "Operations tracking",
+    ],
   },
   {
-    title: "SecureScale",
-    description: "Advanced security and systems package for growing businesses that need stronger controls.",
-    detail:
-      "A growth-stage package for access management, documentation, scalable infrastructure, and stronger operating controls.",
+    title: "Digital Setup & Organization",
+    description: "Simple digital organization for teams that need cleaner shared tools, records, and trackers.",
+    items: [
+      "Google Workspace organization",
+      "Shared Drive structure",
+      "Google Forms setup",
+      "Google Sheets trackers",
+      "Basic CRM-style spreadsheets",
+      "Project boards",
+      "Client list organization",
+      "File naming systems",
+      "Basic automation planning",
+    ],
   },
   {
-    title: "Administrative Systems Support",
-    description: "Helping businesses structure records, documents, workflows, forms, client information, and procedures.",
-    detail:
-      "We organize the administrative layer so business owners can find information, manage work, and make cleaner decisions.",
+    title: "Website & Public Presence Support",
+    description: "Support for public-facing pages that explain services clearly and make it easier for customers to connect.",
+    items: [
+      "Business website setup",
+      "Service page content structure",
+      "Contact form setup",
+      "Mobile-friendly layout",
+      "Basic SEO page structure",
+      "Call-to-action planning",
+      "Public project pages",
+      "Simple portfolio pages",
+    ],
+  },
+  {
+    title: "Hosting & Deployment Support",
+    description: "Launch support for websites and app-style systems, from domains to deployment checks.",
+    items: [
+      "Domain setup",
+      "DNS record configuration",
+      "Website hosting setup",
+      "App deployment support",
+      "SSL/HTTPS setup",
+      "Custom domain connection",
+      "Vercel/Netlify/Firebase hosting setup",
+      "Basic deployment troubleshooting",
+      "Website launch checklist",
+      "Ongoing update support",
+    ],
   },
 ];

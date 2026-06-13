@@ -13,7 +13,7 @@ export default function TermsPage() {
         <SectionHeading eyebrow="Terms" title="Terms of Use" level="h1" />
         <div className="mt-8 space-y-5 text-sm leading-7 text-slate-600">
           <p>
-            This page is a launch-ready placeholder for Melaza's public website terms. Final legal language should be reviewed before production release.
+            This page is a launch-ready placeholder for Melaza&apos;s public website terms. Final legal language should be reviewed before production release.
           </p>
           <p>
             Public website content is provided for general information about Melaza services and does not create a consulting agreement by itself.

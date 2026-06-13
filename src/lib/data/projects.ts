@@ -4,51 +4,59 @@ export type Project = {
   name: string;
   industry: string;
   location: string;
+  serviceType: string;
   servicesProvided: string[];
+  description: string;
   status: ProjectStatus;
 };
 
 export const projects: Project[] = [
   {
-    name: "Luigi Vapor",
-    industry: "Retail / Vape Shop",
-    location: "United States",
-    servicesProvided: ["Digital operations", "Website planning", "Workflow support"],
-    status: "Active",
-  },
-  {
-    name: "S&T Construccion",
+    name: "S&T Construcción",
     industry: "Construction",
-    location: "Colombia / United States",
-    servicesProvided: ["Public website", "Service organization", "Admin-ready structure"],
+    location: "Colombia / U.S.-ready public presence",
+    serviceType: "Business website and admin-ready app planning",
+    servicesProvided: [
+      "Public construction company website",
+      "Service presentation",
+      "Project/gallery structure",
+      "Mobile-ready layout",
+      "Admin panel planning",
+      "Photo and service update workflow",
+      "Hosting/deployment preparation",
+    ],
+    description:
+      "S&T Construcción is an example of how Melaza helps service businesses create a professional digital presence. The project focuses on presenting construction services clearly, organizing project photos, preparing an admin-ready structure, and planning for future updates by the business owner.",
     status: "In Development",
   },
   {
-    name: "KTD Security",
-    industry: "Security Company",
+    name: "Luigi Vapor",
+    industry: "Retail / Vape Shop",
     location: "United States",
-    servicesProvided: ["SecureStart", "Documentation", "Operating procedures"],
-    status: "Planning",
+    serviceType: "Digital operations and public website planning",
+    servicesProvided: ["Website planning", "Workflow support", "Lead and service request organization"],
+    description:
+      "A retail-focused example showing how Melaza can help organize a public online presence, customer contact flow, and practical digital operations for a small business.",
+    status: "Active",
   },
   {
     name: "Sample Food Truck",
     industry: "Food Truck",
     location: "United States",
+    serviceType: "Website structure and customer request flow",
     servicesProvided: ["Menu flow", "Booking intake", "Digital presence"],
+    description:
+      "A sample service-business project focused on making menu information, event requests, and customer contact steps easier to understand and manage.",
     status: "Planning",
   },
   {
     name: "Sample Restaurant",
     industry: "Restaurant",
     location: "Colombia",
+    serviceType: "Public presence and workflow organization",
     servicesProvided: ["Website", "Contact flow", "Process organization"],
-    status: "Planning",
-  },
-  {
-    name: "Sample Security Company",
-    industry: "Security Company",
-    location: "United States",
-    servicesProvided: ["SecureScale", "Access management", "Systems consulting"],
+    description:
+      "A sample restaurant project showing how Melaza can organize service pages, contact steps, and basic workflow planning without exposing private operations.",
     status: "Planning",
   },
 ];

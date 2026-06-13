@@ -9,7 +9,13 @@ export function ServiceCard({ service }: { service: Service }) {
       </div>
       <h2 className="mt-5 text-xl font-black text-melaza-indigo">{service.title}</h2>
       <p className="mt-3 text-sm leading-7 text-slate-600">{service.description}</p>
-      <p className="mt-4 text-sm leading-7 text-slate-500">{service.detail}</p>
+      <ul className="mt-5 grid gap-2 text-sm text-slate-600">
+        {service.items.map((item) => (
+          <li key={item} className="rounded-2xl bg-slate-50 px-4 py-3">
+            {item}
+          </li>
+        ))}
+      </ul>
     </Card>
   );
 }

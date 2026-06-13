@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 
 export function Hero() {
@@ -33,14 +34,16 @@ export function Hero() {
                 </p>
                 <h2 className="mt-4 text-3xl font-black">Consulting + digital execution</h2>
               </div>
-              <img
+              <Image
                 src="/melaza-hero-logo.png"
                 alt="Melaza logo"
+                width={96}
+                height={96}
                 className="h-24 w-24 rounded-3xl object-cover opacity-90"
               />
             </div>
             <div className="mt-8 grid gap-3">
-              {["Business process consulting", "Digital tools and websites", "SecureStart and SecureScale", "Admin and client portal ready"].map((item) => (
+              {["App planning and prototyping", "Digital tools and websites", "Workflow organization", "Project launch support"].map((item) => (
                 <div key={item} className="rounded-2xl bg-white/10 px-4 py-3 text-sm font-bold">
                   {item}
                 </div>

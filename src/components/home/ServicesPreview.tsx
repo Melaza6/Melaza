@@ -9,7 +9,7 @@ export function ServicesPreview() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
           <SectionHeading eyebrow="Services" title="Practical support for owners who need clearer systems.">
-            Melaza combines process consulting, technology, documentation, and implementation so business improvements become usable.
+            Melaza helps small businesses create digital tools, organize workflows, manage projects, and launch online systems from idea to deployment.
           </SectionHeading>
           <Button href="/services" variant="secondary">View All Services</Button>
         </div>

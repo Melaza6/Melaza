@@ -31,7 +31,7 @@ export default function ContactPage() {
             <div className="mt-8 rounded-3xl border border-white/15 bg-white/10 p-5">
               <p className="font-black">Good fit for</p>
               <p className="mt-2 text-sm leading-7 text-white/75">
-                Owners who need help organizing operations, improving workflows, preparing compliance-ready systems, or building a stronger public digital presence.
+                Owners who need help organizing operations, improving workflows, planning digital tools, or building a stronger public digital presence.
               </p>
             </div>
           </div>
