@@ -1,7 +1,16 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/Button";
+import type { PublicSiteSection } from "@/lib/public-site-content";
 
-export function Hero() {
+export function Hero({ section }: { section?: PublicSiteSection }) {
+  const title = section?.title || "Build better systems. Grow stronger businesses.";
+  const subtitle =
+    section?.subtitle ||
+    "Melaza helps small businesses organize operations, improve processes, build modern digital tools, and prepare for sustainable growth across the U.S. and Colombia.";
+  const body = section?.body || "Together we learn, together we grow, together we bloom.";
+  const primaryCta = section?.ctaLabel || "Work With Melaza";
+  const primaryCtaUrl = section?.ctaUrl || "/contact";
+
   return (
     <section className="relative overflow-hidden bg-[radial-gradient(circle_at_top_left,#E8AA13_0,#E8AA1300_28%),linear-gradient(135deg,#ffffff_0%,#f8f3fb_48%,#fff7df_100%)]">
       <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 py-20 sm:px-6 lg:grid-cols-[1.08fr_0.92fr] lg:px-8 lg:py-28">
@@ -9,19 +18,15 @@ export function Hero() {
           <p className="inline-flex rounded-full border border-melaza-poppy/40 bg-white/85 px-4 py-2 text-xs font-black uppercase tracking-[0.22em] text-melaza-indigo shadow-sm">
             Bilingual-ready consulting for the U.S. and Colombia
           </p>
-          <h1 className="mt-6 max-w-4xl text-4xl font-black tracking-tight text-melaza-indigo sm:text-5xl lg:text-6xl">
-            Build better systems. Grow stronger businesses.
-          </h1>
+          <h1 className="mt-6 max-w-4xl text-4xl font-black tracking-tight text-melaza-indigo sm:text-5xl lg:text-6xl">{title}</h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
-            Melaza helps small businesses organize operations, improve processes,
-            build modern digital tools, and prepare for sustainable growth across
-            the U.S. and Colombia.
+            {subtitle}
           </p>
           <p className="mt-4 text-base font-semibold italic text-melaza-rose">
-            Together we learn, together we grow, together we bloom.
+            {body}
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <Button href="/contact" variant="accent">Work With Melaza</Button>
+            <Button href={primaryCtaUrl} variant="accent">{primaryCta}</Button>
             <Button href="/services" variant="secondary">Explore Services</Button>
           </div>
         </div>

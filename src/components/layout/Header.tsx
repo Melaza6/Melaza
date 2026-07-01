@@ -41,7 +41,7 @@ export function Header() {
         </nav>
         <div className="hidden items-center gap-3 md:flex">
           <Button href={integrationConfig.melazaNetworkUrl} variant="secondary">
-            Client Login
+            Client/Admin Login
           </Button>
           <Button href="/contact">Work With Melaza</Button>
         </div>
