@@ -60,7 +60,7 @@ export function LeadIntakeForm() {
 
     if (!supabase) {
       setStatus("error");
-      setMessage("Melaza intake is not configured yet. Please email or call Melaza directly.");
+      setMessage("The request form is not available right now. Please contact Melaza directly and we will follow up soon.");
       return;
     }
 
@@ -100,7 +100,7 @@ export function LeadIntakeForm() {
     }
 
     setStatus("sent");
-    setMessage("Thank you. Your request was sent to Melaza Network.");
+    setMessage("Thank you. Your request was sent to Melaza Network. We will review it and follow up soon.");
     setForm(initialForm);
   }
 
