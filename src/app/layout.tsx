@@ -4,7 +4,7 @@ import { Footer } from "@/components/layout/Footer";
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.melazausa.com"),
+  metadataBase: new URL("https://melazausa.com"),
   title: {
     default: "Melaza | Business Systems, Digital Solutions, Growth Consulting",
     template: "%s | Melaza",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: "Melaza",
     description:
       "Business systems, digital solutions, and growth consulting for small businesses in the U.S. and Colombia.",
-    url: "https://www.melazausa.com",
+    url: "https://melazausa.com",
     siteName: "Melaza",
     locale: "en_US",
     type: "website",

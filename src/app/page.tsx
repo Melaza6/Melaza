@@ -4,11 +4,16 @@ import { IndustriesPreview } from "@/components/home/IndustriesPreview";
 import { ProcessSection } from "@/components/home/ProcessSection";
 import { ServicesPreview } from "@/components/home/ServicesPreview";
 import { WhyMelaza } from "@/components/home/WhyMelaza";
+import { fetchPublicSiteContent, firstSection } from "@/lib/public-site-content";
 
-export default function HomePage() {
+export default async function HomePage() {
+  const publicContent = await fetchPublicSiteContent();
+  const heroSection = firstSection(publicContent.sections, "Hero");
+  const ctaSection = firstSection(publicContent.sections, "CTA");
+
   return (
     <>
-      <Hero />
+      <Hero section={heroSection} />
       <section className="bg-white py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <p className="max-w-4xl text-2xl font-black leading-tight text-melaza-indigo">
@@ -19,11 +24,11 @@ export default function HomePage() {
           </p>
         </div>
       </section>
-      <ServicesPreview />
+      <ServicesPreview managedServices={publicContent.services} />
       <WhyMelaza />
       <IndustriesPreview />
       <ProcessSection />
-      <CTASection />
+      <CTASection section={ctaSection} />
     </>
   );
 }

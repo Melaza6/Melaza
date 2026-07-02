@@ -45,7 +45,7 @@ export function MobileNav() {
               className="rounded-2xl border border-melaza-poppy/40 bg-melaza-poppy/10 px-4 py-3 text-sm font-black text-melaza-indigo"
               onClick={() => setOpen(false)}
             >
-              Client Login
+              Client/Admin Login
             </Link>
           </nav>
         </div>
