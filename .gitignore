@@ -22,6 +22,9 @@ next-dev.out.log
 .env.test.local
 .env.production.local
 
+# Production environment secrets
+/.env.production
+
 # OS/editor files
 .DS_Store
 Thumbs.db
