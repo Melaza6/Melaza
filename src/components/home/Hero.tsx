@@ -40,7 +40,7 @@ export function Hero({ section }: { section?: PublicSiteSection }) {
                 <h2 className="mt-4 text-3xl font-black">Consulting + digital execution</h2>
               </div>
               <Image
-                src="/melaza-hero-logo.png"
+                src="/melaza-hero-logo-192.webp"
                 alt="Melaza logo"
                 width={96}
                 height={96}
