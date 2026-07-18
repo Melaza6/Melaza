@@ -19,7 +19,7 @@ export function Header() {
       <div className="relative mx-auto flex h-20 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex min-w-0 items-center gap-3">
           <Image
-            src="/melaza-home-icon.png"
+            src="/melaza-home-icon-88.webp"
             alt="Melaza logo mark"
             width={44}
             height={44}
