@@ -3,7 +3,7 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 
 const reasons = [
   "Founder-driven, practical consulting",
-  "U.S. and Colombia business perspective",
+  "U.S. and international business perspective",
   "Technology connected to real workflows",
   "Veteran-owned, leadership-oriented tone",
 ];

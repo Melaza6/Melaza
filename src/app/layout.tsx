@@ -10,11 +10,11 @@ export const metadata: Metadata = {
     template: "%s | Melaza",
   },
   description:
-    "Melaza helps small businesses organize operations, improve processes, build digital tools, and grow across the U.S. and Colombia.",
+    "Melaza helps small businesses organize operations, improve processes, build digital tools, and grow in the U.S. and internationally.",
   openGraph: {
     title: "Melaza",
     description:
-      "Business systems, digital solutions, and growth consulting for small businesses in the U.S. and Colombia.",
+      "Business systems, digital solutions, and growth consulting for small businesses in the U.S. and international markets.",
     url: "https://melazausa.com",
     siteName: "Melaza",
     locale: "en_US",

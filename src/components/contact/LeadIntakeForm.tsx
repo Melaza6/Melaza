@@ -74,33 +74,37 @@ export function LeadIntakeForm() {
     ].join("\n");
 
     // Public users only receive anon Supabase access. RLS must allow this insert and deny public reads/updates/deletes.
-    const { error } = await supabase.from("leads").insert({
-      id: `lead-mlp-${Date.now()}`,
-      name: form.name.trim(),
-      business_name: form.businessName.trim(),
-      email: form.email.trim().toLowerCase(),
-      phone: form.phone.trim() || null,
-      source: "Melaza Landing Page",
-      service_needed: form.service,
-      message: form.description.trim(),
-      status: "New",
-      priority: "Medium",
-      assigned_to_team_member_id: null,
-      related_client_id: null,
-      follow_up_date: null,
-      notes: leadNotes,
-      created_at: now,
-      updated_at: now,
-    });
+    try {
+      const { error } = await supabase.from("leads").insert({
+        id: `lead-mlp-${Date.now()}`,
+        name: form.name.trim(),
+        business_name: form.businessName.trim(),
+        email: form.email.trim().toLowerCase(),
+        phone: form.phone.trim() || null,
+        source: "Melaza Landing Page",
+        service_needed: form.service,
+        message: form.description.trim(),
+        status: "New",
+        priority: "Medium",
+        assigned_to_team_member_id: null,
+        related_client_id: null,
+        follow_up_date: null,
+        notes: leadNotes,
+        created_at: now,
+        updated_at: now,
+      });
 
-    if (error) {
+      if (error) {
+        throw error;
+      }
+    } catch {
       setStatus("error");
       setMessage("The request could not be sent. Please try again or contact Melaza directly.");
       return;
     }
 
     setStatus("sent");
-    setMessage("Thank you. Your request was sent to Melaza Network. We will review it and follow up soon.");
+    setMessage("Thank you. Your consultation request has been received. Our team will contact you shortly.");
     setForm(initialForm);
   }
 

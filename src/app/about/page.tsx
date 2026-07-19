@@ -5,7 +5,7 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Learn about Melaza's purpose, values, founder-driven approach, and U.S. / Colombia business focus.",
+  description: "Learn about Melaza's purpose, values, founder-driven approach, and international business focus.",
 };
 
 const values = ["Learning", "Growth", "Structure", "Technology", "Trust", "Practical execution"];
@@ -31,7 +31,7 @@ export default function AboutPage() {
           <Card>
             <h2 className="text-2xl font-black text-melaza-indigo">Vision</h2>
             <p className="mt-4 text-sm leading-7 text-slate-600">
-              Build a bilingual-ready consulting company that connects business structure, technology, and human-centered growth across the U.S. and Colombia.
+              Build a bilingual-ready consulting company that connects business structure, technology, and human-centered growth in the U.S. and internationally.
             </p>
           </Card>
           <Card>

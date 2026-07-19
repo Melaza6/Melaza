@@ -6,7 +6,7 @@ export function Hero({ section }: { section?: PublicSiteSection }) {
   const title = section?.title || "Build better systems. Grow stronger businesses.";
   const subtitle =
     section?.subtitle ||
-    "Melaza helps small businesses organize operations, improve processes, build modern digital tools, and prepare for sustainable growth across the U.S. and Colombia.";
+    "Melaza helps small businesses organize operations, improve processes, build modern digital tools, and prepare for sustainable growth in the U.S. and internationally.";
   const body = section?.body || "Together we learn, together we grow, together we bloom.";
   const primaryCta = section?.ctaLabel || "Work With Melaza";
   const primaryCtaUrl = section?.ctaUrl || "/contact";
@@ -16,7 +16,7 @@ export function Hero({ section }: { section?: PublicSiteSection }) {
       <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 py-20 sm:px-6 lg:grid-cols-[1.08fr_0.92fr] lg:px-8 lg:py-28">
         <div>
           <p className="inline-flex rounded-full border border-melaza-poppy/40 bg-white/85 px-4 py-2 text-xs font-black uppercase tracking-[0.22em] text-melaza-indigo shadow-sm">
-            Bilingual-ready consulting for the U.S. and Colombia
+            Bilingual-ready consulting for U.S. and international businesses
           </p>
           <h1 className="mt-6 max-w-4xl text-4xl font-black tracking-tight text-melaza-indigo sm:text-5xl lg:text-6xl">{title}</h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
@@ -55,22 +55,8 @@ export function Hero({ section }: { section?: PublicSiteSection }) {
               ))}
             </div>
           </div>
-          <div className="mt-4 grid grid-cols-3 gap-3 text-center">
-            <Stat value="2" label="Markets" />
-            <Stat value="6" label="Services" />
-            <Stat value="1" label="Clear path" />
-          </div>
         </div>
       </div>
     </section>
-  );
-}
-
-function Stat({ value, label }: { value: string; label: string }) {
-  return (
-    <div className="rounded-2xl border border-slate-200 bg-white p-4">
-      <p className="text-2xl font-black text-melaza-indigo">{value}</p>
-      <p className="mt-1 text-xs font-bold uppercase tracking-wide text-slate-500">{label}</p>
-    </div>
   );
 }
