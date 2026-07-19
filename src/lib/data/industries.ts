@@ -37,7 +37,7 @@ export const industries: Industry[] = [
     description: "Create practical systems for scheduling, client records, follow-up, and service delivery.",
   },
   {
-    name: "Cross-border U.S. / Colombia operations",
-    description: "Plan bilingual documentation, distributed workflows, and digital structure across both markets.",
+    name: "Cross-border and international operations",
+    description: "Plan bilingual documentation, distributed workflows, and digital structure across markets.",
   },
 ];

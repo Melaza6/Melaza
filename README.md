@@ -2,7 +2,7 @@
 
 Professional public-facing web app for MelazaUSA LLC, publicly branded as Melaza.
 
-Melaza helps small businesses organize operations, improve processes, build modern digital tools, and prepare for sustainable growth across the U.S. and Colombia.
+Melaza helps small businesses organize operations, improve processes, build modern digital tools, and prepare for sustainable growth in the U.S. and internationally.
 
 ## Tech Stack
 

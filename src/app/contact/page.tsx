@@ -4,7 +4,7 @@ import { LeadIntakeForm } from "@/components/contact/LeadIntakeForm";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Request a Melaza consultation for business systems, digital tools, process consulting, or U.S. / Colombia support.",
+  description: "Request a Melaza consultation for business systems, digital tools, process consulting, or international support.",
 };
 
 export default function ContactPage() {
